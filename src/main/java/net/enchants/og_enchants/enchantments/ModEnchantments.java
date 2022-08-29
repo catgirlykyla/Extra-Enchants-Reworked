@@ -21,6 +21,9 @@ public class ModEnchantments {
             new InkyEnchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
+public static Enchantment lifestealenchantment = register("lifestealenchantment",
+            new InkyEnchantment(Enchantment.Rarity.UNCOMMON,
+                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
     private static Enchantment register(String name, Enchantment enchantment) {
         return Registry.register(Registry.ENCHANTMENT, new Identifier(og_enchants.MOD_ID, name), enchantment);

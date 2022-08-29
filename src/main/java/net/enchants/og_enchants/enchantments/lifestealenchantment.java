@@ -17,7 +17,7 @@ public class lifestealenchantment extends Enchantment {
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         int chance = Random.create().nextBetween(1, 10);
         if(chance >= 1 && chance <= 4 && target instanceof LivingEntity) {
-            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 1), user);
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20, 1), user);
         }
     }
 
