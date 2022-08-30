@@ -1,7 +1,10 @@
 {
-  "enchantment.og_enchants.witherenchantment": "Withering",
+  "enchantment.og_enchants.witherenchantment": "§5Withering",
   "enchantment.og_enchants.witherenchantment.desc": "Applys The Withering Effect To Mobs Randomly",
   "enchantment.og_enchants.levenchantment": "Levatate",
   "enchantment.og_enchants.levenchantment.desc": "Works Like The Shulker But Less Common",
-  "enchantment.og_enchants.inkyenchantment": "Inky"
+  "enchantment.og_enchants.inkyenchantment": "Inky",
+  "enchantment.og_enchants.lifestealenchantment": "Lifesteal",
+  "enchantment.og_enchants.strenghenchantment": "Berserker"
+
 }
