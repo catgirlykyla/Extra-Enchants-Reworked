@@ -13,10 +13,6 @@ public class ModEnchantments {
             new WitherEnchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-    public static Enchantment Lev_enchantment = register("levenchantment",
-            new LevEnchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
-
     public static Enchantment inky_enchantment = register("inkyenchantment",
             new InkyEnchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
@@ -34,7 +30,7 @@ public static Enchantment lifesteal_enchantment = register("lifestealenchantment
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
                     public static Enchantment Speedy = register("speedy",
-            new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.MAINHAND));
+            new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR, EquipmentSlot.MAINHAND));
                     
                     
 
