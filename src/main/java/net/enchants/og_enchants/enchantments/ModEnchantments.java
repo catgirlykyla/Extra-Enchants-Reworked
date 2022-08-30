@@ -25,9 +25,17 @@ public static Enchantment lifesteal_enchantment = register("lifestealenchantment
             new lifesteal_enchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-                    public static Enchantment Strengh_Enchantment = register("strenghenchantment",
-            new Strengh_Enchantment(Enchantment.Rarity.UNCOMMON,
+                    public static Enchantment Strength_Enchantment = register("strengthenchantment",
+            new Strength_Enchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+
+                    public static Enchantment LightningEnchantment = register("lightningenchantment",
+            new LightningEnchantment(Enchantment.Rarity.UNCOMMON,
+                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+
+                    public static Enchantment Speedy = register("speedy",
+            new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.MAINHAND));
+                    
                     
 
     private static Enchantment register(String name, Enchantment enchantment) {

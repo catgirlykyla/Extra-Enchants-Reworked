@@ -7,9 +7,8 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.util.math.random.Random;
 
-
-public class Strengh_Enchantment extends Enchantment {
-    public Strengh_Enchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
+public class Strength_Enchantment extends Enchantment {
+    public Strength_Enchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
         super(weight, type, slotTypes);
     }
 
