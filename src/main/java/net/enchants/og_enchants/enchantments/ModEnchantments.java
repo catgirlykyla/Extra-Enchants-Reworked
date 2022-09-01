@@ -9,30 +9,20 @@ import net.minecraft.util.registry.Registry;
 import net.enchants.og_enchants.og_enchants;
 
 public class ModEnchantments {
-    public static Enchantment Wither_enchantment = register("witherenchantment",
-            new WitherEnchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-    public static Enchantment inky_enchantment = register("inkyenchantment",
-            new InkyEnchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+   public static Enchantment Wither_enchantment = register("witherenchantment", new WitherEnchantment(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-public static Enchantment lifesteal_enchantment = register("lifestealenchantment",
-            new lifesteal_enchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+   public static Enchantment inky_enchantment = register("inkyenchantment", new InkyEnchantment(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-                    public static Enchantment Strength_Enchantment = register("strengthenchantment",
-            new Strength_Enchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+   public static Enchantment lifesteal_enchantment = register("lifestealenchantment", new lifesteal_enchantment(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-                    public static Enchantment LightningEnchantment = register("lightningenchantment",
-            new LightningEnchantment(Enchantment.Rarity.UNCOMMON,
-                    EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+   public static Enchantment Strength_Enchantment = register("strengthenchantment", new Strength_Enchantment(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-                    public static Enchantment Speedy = register("speedy",
-            new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR, EquipmentSlot.MAINHAND));
-                    
-                    
+   public static Enchantment LightningEnchantment = register("lightningenchantment", new LightningEnchantment(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
+
+   public static Enchantment Speedy = register("speedy", new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.MAINHAND));
+
+
 
     private static Enchantment register(String name, Enchantment enchantment) {
         return Registry.register(Registry.ENCHANTMENT, new Identifier(og_enchants.MOD_ID, name), enchantment);
