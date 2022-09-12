@@ -1,5 +1,7 @@
 package net.enchants.og_enchants.enchantments;
 
+//Importing Plugins
+
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.*;
@@ -18,6 +20,7 @@ public class WitherEnchantment extends Enchantment {
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
+        // Adds Random Chance
         int chance = Random.create().nextBetween(1, 10);
         if(chance >= 1 && chance <= 6 && target instanceof LivingEntity) {
             ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 120, 1), user);
