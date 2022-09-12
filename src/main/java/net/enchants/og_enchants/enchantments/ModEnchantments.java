@@ -20,7 +20,7 @@ public class ModEnchantments {
 
    public static Enchantment LightningEnchantment = register("lightningenchantment", new LightningEnchantment(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-   public static Enchantment Speedy = register("speedy", new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.MAINHAND));
+   public static Enchantment Speedy = register("speedy", new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.FEET FEET));
 
 
 
