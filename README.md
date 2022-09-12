@@ -2,7 +2,7 @@
 
 ## Gameplay Tester
 If You Wanna Test The Mod Before The Updates 
-### DM ME At @2DSNerd Or @BigBoyThrillz
+### DM ME At @2DSNerd Or My Discord
 
 ## Features
 
