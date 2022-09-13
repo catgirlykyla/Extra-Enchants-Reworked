@@ -22,6 +22,8 @@ public class ModEnchantments {
 
    public static Enchantment Speedy = register("speedy", new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.FEET FEET));
 
+   public static Enchantment Molten = register("molten", new Molten(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_LEGGINGS, EquipmentSlot.LEGS LEGS));
+
 
 
     private static Enchantment register(String name, Enchantment enchantment) {
