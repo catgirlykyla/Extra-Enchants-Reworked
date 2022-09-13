@@ -6,7 +6,7 @@ If You Wanna Test The Mod Before The Updates
 
 ## Features
 
-This Mod Adds Many Enchantments Like Lightning Strikes To Wither Effects On Swords. Even Levitation On Random Hits
+This Mod Adds Many Enchantments Like Lightning Strikes To Wither Effects On Swords. Even Levitation On Random Hits (OUTDATED)
 
 ## License
 
