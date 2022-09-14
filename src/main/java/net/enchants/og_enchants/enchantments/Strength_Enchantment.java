@@ -1,5 +1,7 @@
 package net.enchants.og_enchants.enchantments;
 
+//Importing Plugins
+
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.*;
@@ -15,6 +17,7 @@ public class Strength_Enchantment extends Enchantment {
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
+        // Adds Random Chance
         int chance = Random.create().nextBetween(1, 10);
         if(chance >= 1 && chance <= 3 && user instanceof LivingEntity) {
             ((LivingEntity) user).addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 60, 3), user);

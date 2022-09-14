@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "EnchantmentsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

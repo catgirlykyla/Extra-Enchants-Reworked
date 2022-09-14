@@ -3,18 +3,18 @@
   "id": "og_enchants",
   "version": "${version}",
 
-  "name": "Extra Enchants",
-  "description": "Just a test of some custom enchants that are great",
+  "name": "Extra Enchants Reworked",
+  "description": "Mod For People That Loves Enchantments That Are Goofy",
   "authors": [
     "2DSNerd"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/2DSNerd/Extra-Enchants-Reworked"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/og_enchants/icon.png",
 
   "environment": "*",
   "entrypoints": {
