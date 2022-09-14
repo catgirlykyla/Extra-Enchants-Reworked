@@ -20,9 +20,15 @@ public class ModEnchantments {
 
    public static Enchantment LightningEnchantment = register("lightningenchantment", new LightningEnchantment(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
+<<<<<<< HEAD
    public static Enchantment Speedy = register("speedy", new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.FEET));
 
    public static Enchantment Molten = register("molten", new Molten(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_LEGS, EquipmentSlot.LEGS));
+=======
+   public static Enchantment Speedy = register("speedy", new Speedy(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.FEET FEET));
+
+   public static Enchantment Molten = register("molten", new Molten(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.ARMOR_LEGGINGS, EquipmentSlot.LEGS LEGS));
+>>>>>>> ba44b20be55f566781f16921f2add9fa116cb999
 
 
 

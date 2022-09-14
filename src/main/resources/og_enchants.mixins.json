@@ -6,7 +6,11 @@
   "mixins": [
   ],
   "client": [
+<<<<<<< HEAD
     "EnchantmentsMixin"
+=======
+    "EnchantsMixin"
+>>>>>>> ba44b20be55f566781f16921f2add9fa116cb999
   ],
   "injectors": {
     "defaultRequire": 1
