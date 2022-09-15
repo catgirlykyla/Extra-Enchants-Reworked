@@ -9,7 +9,7 @@
     "2DSNerd"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://modrinth.com/mod/Extra-Enchants-Reworked",
     "sources": "https://github.com/2DSNerd/Extra-Enchants-Reworked"
   },
 
@@ -27,12 +27,12 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.9",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "another-mod": "You Stand No Chance Fabric"
   }
 }

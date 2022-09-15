@@ -22,19 +22,11 @@ public class Molten extends Enchantment {
 
 
     @Override
-<<<<<<< HEAD
     public void onUserDamaged(LivingEntity user, Entity target, int level) {
         // Adds Random Chance To My Code
         int chance = Random.create().nextBetween(1, 10);
         if(chance >= 1 && chance <= 10 && user instanceof LivingEntity) {
             ((LivingEntity) user).addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 60000, 300), user);
-=======
-    public void onUserLiving(LivingEntity user, Entity target, int level) {
-        // Adds Random Chance To My Code
-        int chance = Random.create().nextBetween(1, 10);
-        if(chance >= 1 && chance <= 10 && user instanceof LivingEntity) {
-            ((LivingEntity) user).addStatusEffect(new StatusEffectInstance(StatusEffects.FIRERISISTANCE, 60000000000, 300), user);
->>>>>>> ba44b20be55f566781f16921f2add9fa116cb999
         }
     }
 
