@@ -7,11 +7,14 @@ import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.*;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.server.world.ServerWorld;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
 
-public class Strength_Enchantment extends Enchantment {
-    public Strength_Enchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
+public class Wither extends Enchantment {
+    public Wither(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
         super(weight, type, slotTypes);
     }
 
@@ -19,10 +22,12 @@ public class Strength_Enchantment extends Enchantment {
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         // Adds Random Chance
         int chance = Random.create().nextBetween(1, 10);
-        if(chance >= 1 && chance <= 3 && user instanceof LivingEntity) {
-            ((LivingEntity) user).addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 60, 3), user);
+        if(chance >= 1 && chance <= 6 && target instanceof LivingEntity) {
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 120, 1), user);
         }
+
     }
 
 
-}
+    }
+

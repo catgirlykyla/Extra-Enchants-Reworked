@@ -1,3 +1,5 @@
+// Doesnt Work Yet
+
 package net.enchants.og_enchants.enchantments;
 
 import net.minecraft.enchantment.Enchantment;
@@ -8,8 +10,8 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class LightningEnchantment extends Enchantment {
-    public LightningEnchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
+public class Lightning extends Enchantment {
+    public Lightning(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
         super(weight, type, slotTypes);
     }
 

@@ -8,16 +8,16 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.util.math.random.Random;
 
 
-public class lifesteal_enchantment extends Enchantment {
-    public lifesteal_enchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
+public class Levi extends Enchantment {
+    public Levi(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
         super(weight, type, slotTypes);
     }
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         int chance = Random.create().nextBetween(1, 10);
-        if(chance >= 1 && chance <= 3 && user instanceof LivingEntity) {
-            ((LivingEntity) user).addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 60, 3), user);
+        if(chance >= 1 && chance <= 4 && target instanceof LivingEntity) {
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200, 1), user);
         }
     }
 
